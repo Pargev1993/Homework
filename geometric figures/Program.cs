@@ -21,9 +21,8 @@ namespace geometric_figures
                 else  if (figur==2)
             {  double R = Convert.ToInt32(Console.ReadLine());
                  Console.WriteLine("area is"+ 3.14* Math.Pow(R,2));}
-                else 
-                { Console.WriteLine("wrong"); }
+                else
+            { Console.WriteLine("wrong"); }
                 Console.ReadKey(); }
         }
     }
-}
