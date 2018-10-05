@@ -11,18 +11,23 @@ namespace geometric_figures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose your geometric figures:\nif square press-1\nif circle press-2\nif rectangle press-3 ");
-            byte figur = Convert.ToByte(Console.ReadLine());
-            if (figur == 1|| figur==3)
-            {   Console.WriteLine("enter figurs size ");
-                int A = Convert.ToInt32(Console.ReadLine());
-                int B = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("area is "+A*B);}
-                else  if (figur==2)
-            {  double R = Convert.ToInt32(Console.ReadLine());
-                 Console.WriteLine("area is"+ 3.14* Math.Pow(R,2));}
-                else
-            { Console.WriteLine("wrong"); }
-                Console.ReadKey(); }
-        }
+            Console.WriteLine("enter a four-digit number ");
+            int digitnumber = Convert.ToInt32(Console.ReadLine());
+            int result = 0;
+            if (digitnumber >= 1000 && digitnumber <= 9999)
+            {
+                int num_1 = digitnumber / 1000;
+                int num_2 = digitnumber % 1000 / 100;
+                int num_3 = digitnumber % 1000 % 100 / 10;
+                int num_4 = digitnumber % 1000 % 100 % 10;
+                result = num_1 + num_2 + num_3 + num_4;
+                Console.WriteLine("result=" + result);
+            }
+            else
+            {
+                Console.WriteLine("error");
+            }
+                Console.ReadLine();
+            }
+        }   
     }
