@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "letter", "letter\letter.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geometric figures", "geometric figures\geometric figures.csproj", "{174F003B-0513-4629-AC71-AFE84EE3C07F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "digit number", "digit number\digit number.csproj", "{AE834B7F-FA15-44FA-840C-4DF6DEBA21DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{174F003B-0513-4629-AC71-AFE84EE3C07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{174F003B-0513-4629-AC71-AFE84EE3C07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{174F003B-0513-4629-AC71-AFE84EE3C07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE834B7F-FA15-44FA-840C-4DF6DEBA21DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE834B7F-FA15-44FA-840C-4DF6DEBA21DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE834B7F-FA15-44FA-840C-4DF6DEBA21DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE834B7F-FA15-44FA-840C-4DF6DEBA21DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
